@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="generator" content="pandoc">
-  <title>slides</title>
+  <title>baru</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -18,11 +18,8 @@
     div.columns{display: flex; gap: min(4vw, 1.5em);}
     div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    /* The extra [class] is a hack that increases specificity enough to
-       override a similar rule in reveal.js */
-    ul.task-list[class]{list-style: none;}
+    ul.task-list{list-style: none;}
     ul.task-list li input[type="checkbox"] {
-      font-size: inherit;
       width: 0.8em;
       margin: 0 0.8em 0.2em -1.6em;
       vertical-align: middle;
@@ -48,24 +45,6 @@
       margin-left: 2em;
     }  </style>
   <link rel="stylesheet" href="https://unpkg.com/reveal.js@4/dist/theme/serif.css" id="theme">
-  <script defer=""
-  src="/usr/share/javascript/katex/katex.min.js"></script>
-  <script>document.addEventListener("DOMContentLoaded", function () {
- var mathElements = document.getElementsByClassName("math");
- var macros = [];
- for (var i = 0; i < mathElements.length; i++) {
-  var texText = mathElements[i].firstChild;
-  if (mathElements[i].tagName == "SPAN") {
-   katex.render(texText.data, mathElements[i], {
-    displayMode: mathElements[i].classList.contains('display'),
-    throwOnError: false,
-    macros: macros,
-    fleqn: false
-   });
-}}});
-  </script>
-  <link rel="stylesheet"
-  href="/usr/share/javascript/katex/katex.min.css" />
   <button id="nav-btn" onclick="toggleNavMenu()" title="Open Slide List">📋 MENU</button>
 
   <div id="nav-menu">
@@ -578,6 +557,9 @@
   <div class="reveal">
     <div class="slides">
 
+<section id="title-slide">
+  <h1 class="title">baru</h1>
+</section>
 
 <section class="slide level1">
 
@@ -631,43 +613,9 @@ style="position: absolute; bottom: 40px; right: 20px; font-size: 0.6em; opacity:
 <p><img data-src="media/pics/logo1.png" /></p>
 </div>
 </div>
-</section>
-<section class="slide level1">
-
-<div class="columns">
-<div class="column" style="width:50%;">
-<h3 id="slide-one">Slide one</h3>
-<p><strong>Key Concepts:</strong> - Energy conservation per <span
-class="citation" data-cites="carnot1824">(1)</span>. - <span
-class="math inline">\Delta U = Q - W</span></p>
-</div><div class="column" style="width:50%;">
-<p><img data-src="media/pics/sample.png" /></p>
-</div>
-</div>
-</section>
-<section class="slide level1">
-
 <p><span class="slide-title"
 data-title="My Hidden Slide Name"></span></p>
 <p><img data-src="media/pics/wide.jpeg" /></p>
-</section>
-<section class="slide level1">
-
-<div class="columns">
-<div class="column" style="width:50%;">
-<h3 id="the-master-equation">The Master Equation</h3>
-<p>The fundamental relation of thermodynamics:</p>
-<p><span class="math display">\Delta U = Q - W</span></p>
-<p>The work done <span class="math inline">W</span> is positive when the
-system expands against an external pressure.</p>
-</div><div class="column" style="width:50%;">
-<video data-src="media/videos/sample.mp4" data-autoplay loop muted width="100%">
-</video>
-</div>
-</div>
-</section>
-<section class="slide level1">
-
 <div class="columns">
 <div class="column" style="width:50%;">
 <h3 id="visualizing-the-gas-law">Visualizing the Gas Law</h3>
@@ -682,15 +630,3167 @@ system expands against an external pressure.</p>
 </iframe>
 </div>
 </div>
+<h3 id="partlength-analysis-for-machine-1-at-303-k-100-kpa">PartLength
+Analysis for Machine 1 at 303 K, 100 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### No Control Chart Generated Not enough valid numeric data was
+found to generate an Individual Control Chart for PartLength (Machine:
+1, Temp: 303, Pres: 100).</p>
+</div><div class="column">
+<p>#### No Process Capability Generated Not enough valid numeric data
+was found to generate Process Capability for PartLength (Machine: 1,
+Temp: 303, Pres: 100).</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-1-at-303-k-300-kpa">PartLength
+Analysis for Machine 1 at 303 K, 300 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### No Control Chart Generated Not enough valid numeric data was
+found to generate an Individual Control Chart for PartLength (Machine:
+1, Temp: 303, Pres: 300).</p>
+</div><div class="column">
+<p>#### No Process Capability Generated Not enough valid numeric data
+was found to generate Process Capability for PartLength (Machine: 1,
+Temp: 303, Pres: 300).</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-1-at-338-k-200-kpa">PartLength
+Analysis for Machine 1 at 338 K, 200 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### No Control Chart Generated Not enough valid numeric data was
+found to generate an Individual Control Chart for PartLength (Machine:
+1, Temp: 338, Pres: 200).</p>
+</div><div class="column">
+<p>#### No Process Capability Generated Not enough valid numeric data
+was found to generate Process Capability for PartLength (Machine: 1,
+Temp: 338, Pres: 200).</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-1-at-373-k-100-kpa">PartLength
+Analysis for Machine 1 at 373 K, 100 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### No Control Chart Generated Not enough valid numeric data was
+found to generate an Individual Control Chart for PartLength (Machine:
+1, Temp: 373, Pres: 100).</p>
+</div><div class="column">
+<p>#### No Process Capability Generated Not enough valid numeric data
+was found to generate Process Capability for PartLength (Machine: 1,
+Temp: 373, Pres: 100).</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-1-at-373-k-300-kpa">PartLength
+Analysis for Machine 1 at 373 K, 300 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### No Control Chart Generated Not enough valid numeric data was
+found to generate an Individual Control Chart for PartLength (Machine:
+1, Temp: 373, Pres: 300).</p>
+</div><div class="column">
+<p>#### No Process Capability Generated Not enough valid numeric data
+was found to generate Process Capability for PartLength (Machine: 1,
+Temp: 373, Pres: 300).</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-2-at-303-k-200-kpa">PartLength
+Analysis for Machine 2 at 303 K, 200 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### No Control Chart Generated Not enough valid numeric data was
+found to generate an Individual Control Chart for PartLength (Machine:
+2, Temp: 303, Pres: 200).</p>
+</div><div class="column">
+<p>#### No Process Capability Generated Not enough valid numeric data
+was found to generate Process Capability for PartLength (Machine: 2,
+Temp: 303, Pres: 200).</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-2-at-338-k-100-kpa">PartLength
+Analysis for Machine 2 at 338 K, 100 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### No Control Chart Generated Not enough valid numeric data was
+found to generate an Individual Control Chart for PartLength (Machine:
+2, Temp: 338, Pres: 100).</p>
+</div><div class="column">
+<p>#### No Process Capability Generated Not enough valid numeric data
+was found to generate Process Capability for PartLength (Machine: 2,
+Temp: 338, Pres: 100).</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-2-at-338-k-300-kpa">PartLength
+Analysis for Machine 2 at 338 K, 300 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### No Control Chart Generated Not enough valid numeric data was
+found to generate an Individual Control Chart for PartLength (Machine:
+2, Temp: 338, Pres: 300).</p>
+</div><div class="column">
+<p>#### No Process Capability Generated Not enough valid numeric data
+was found to generate Process Capability for PartLength (Machine: 2,
+Temp: 338, Pres: 300).</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-2-at-373-k-200-kpa">PartLength
+Analysis for Machine 2 at 373 K, 200 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### No Control Chart Generated Not enough valid numeric data was
+found to generate an Individual Control Chart for PartLength (Machine:
+2, Temp: 373, Pres: 200).</p>
+</div><div class="column">
+<p>#### No Process Capability Generated Not enough valid numeric data
+was found to generate Process Capability for PartLength (Machine: 2,
+Temp: 373, Pres: 200).</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-3-at-303-k-100-kpa">PartLength
+Analysis for Machine 3 at 303 K, 100 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### No Control Chart Generated Not enough valid numeric data was
+found to generate an Individual Control Chart for PartLength (Machine:
+3, Temp: 303, Pres: 100).</p>
+</div><div class="column">
+<p>#### No Process Capability Generated Not enough valid numeric data
+was found to generate Process Capability for PartLength (Machine: 3,
+Temp: 303, Pres: 100).</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-3-at-303-k-300-kpa">PartLength
+Analysis for Machine 3 at 303 K, 300 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### No Control Chart Generated Not enough valid numeric data was
+found to generate an Individual Control Chart for PartLength (Machine:
+3, Temp: 303, Pres: 300).</p>
+</div><div class="column">
+<p>#### No Process Capability Generated Not enough valid numeric data
+was found to generate Process Capability for PartLength (Machine: 3,
+Temp: 303, Pres: 300).</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-3-at-338-k-200-kpa">PartLength
+Analysis for Machine 3 at 338 K, 200 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### No Control Chart Generated Not enough valid numeric data was
+found to generate an Individual Control Chart for PartLength (Machine:
+3, Temp: 338, Pres: 200).</p>
+</div><div class="column">
+<p>#### No Process Capability Generated Not enough valid numeric data
+was found to generate Process Capability for PartLength (Machine: 3,
+Temp: 338, Pres: 200).</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-3-at-373-k-100-kpa">PartLength
+Analysis for Machine 3 at 373 K, 100 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### No Control Chart Generated Not enough valid numeric data was
+found to generate an Individual Control Chart for PartLength (Machine:
+3, Temp: 373, Pres: 100).</p>
+</div><div class="column">
+<p>#### No Process Capability Generated Not enough valid numeric data
+was found to generate Process Capability for PartLength (Machine: 3,
+Temp: 373, Pres: 100).</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-3-at-373-k-300-kpa">PartLength
+Analysis for Machine 3 at 373 K, 300 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### No Control Chart Generated Not enough valid numeric data was
+found to generate an Individual Control Chart for PartLength (Machine:
+3, Temp: 373, Pres: 300).</p>
+</div><div class="column">
+<p>#### No Process Capability Generated Not enough valid numeric data
+was found to generate Process Capability for PartLength (Machine: 3,
+Temp: 373, Pres: 300).</p>
+</div>
+</div>
+<h3
+id="partresistance-analysis-for-machine-1-at-303-k-200-kpa">PartResistance
+Analysis for Machine 1 at 303 K, 200 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### No Control Chart Generated Not enough valid numeric data was
+found to generate an Individual Control Chart for PartResistance
+(Machine: 1, Temp: 303, Pres: 200).</p>
+</div><div class="column">
+<p>#### No Process Capability Generated Not enough valid numeric data
+was found to generate Process Capability for PartResistance (Machine: 1,
+Temp: 303, Pres: 200).</p>
+</div>
+</div>
+<h3
+id="partresistance-analysis-for-machine-1-at-338-k-100-kpa">PartResistance
+Analysis for Machine 1 at 338 K, 100 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### No Control Chart Generated Not enough valid numeric data was
+found to generate an Individual Control Chart for PartResistance
+(Machine: 1, Temp: 338, Pres: 100).</p>
+</div><div class="column">
+<p>#### No Process Capability Generated Not enough valid numeric data
+was found to generate Process Capability for PartResistance (Machine: 1,
+Temp: 338, Pres: 100).</p>
+</div>
+</div>
+<h3
+id="partresistance-analysis-for-machine-1-at-338-k-300-kpa">PartResistance
+Analysis for Machine 1 at 338 K, 300 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### No Control Chart Generated Not enough valid numeric data was
+found to generate an Individual Control Chart for PartResistance
+(Machine: 1, Temp: 338, Pres: 300).</p>
+</div><div class="column">
+<p>#### No Process Capability Generated Not enough valid numeric data
+was found to generate Process Capability for PartResistance (Machine: 1,
+Temp: 338, Pres: 300).</p>
+</div>
+</div>
+<h3
+id="partresistance-analysis-for-machine-1-at-373-k-200-kpa">PartResistance
+Analysis for Machine 1 at 373 K, 200 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### No Control Chart Generated Not enough valid numeric data was
+found to generate an Individual Control Chart for PartResistance
+(Machine: 1, Temp: 373, Pres: 200).</p>
+</div><div class="column">
+<p>#### No Process Capability Generated Not enough valid numeric data
+was found to generate Process Capability for PartResistance (Machine: 1,
+Temp: 373, Pres: 200).</p>
+</div>
+</div>
+<h3
+id="partresistance-analysis-for-machine-2-at-303-k-100-kpa">PartResistance
+Analysis for Machine 2 at 303 K, 100 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### No Control Chart Generated Not enough valid numeric data was
+found to generate an Individual Control Chart for PartResistance
+(Machine: 2, Temp: 303, Pres: 100).</p>
+</div><div class="column">
+<p>#### No Process Capability Generated Not enough valid numeric data
+was found to generate Process Capability for PartResistance (Machine: 2,
+Temp: 303, Pres: 100).</p>
+</div>
+</div>
+<h3
+id="partresistance-analysis-for-machine-2-at-303-k-300-kpa">PartResistance
+Analysis for Machine 2 at 303 K, 300 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### No Control Chart Generated Not enough valid numeric data was
+found to generate an Individual Control Chart for PartResistance
+(Machine: 2, Temp: 303, Pres: 300).</p>
+</div><div class="column">
+<p>#### No Process Capability Generated Not enough valid numeric data
+was found to generate Process Capability for PartResistance (Machine: 2,
+Temp: 303, Pres: 300).</p>
+</div>
+</div>
+<h3
+id="partresistance-analysis-for-machine-2-at-338-k-200-kpa">PartResistance
+Analysis for Machine 2 at 338 K, 200 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### No Control Chart Generated Not enough valid numeric data was
+found to generate an Individual Control Chart for PartResistance
+(Machine: 2, Temp: 338, Pres: 200).</p>
+</div><div class="column">
+<p>#### No Process Capability Generated Not enough valid numeric data
+was found to generate Process Capability for PartResistance (Machine: 2,
+Temp: 338, Pres: 200).</p>
+</div>
+</div>
+<h3
+id="partresistance-analysis-for-machine-2-at-373-k-100-kpa">PartResistance
+Analysis for Machine 2 at 373 K, 100 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### No Control Chart Generated Not enough valid numeric data was
+found to generate an Individual Control Chart for PartResistance
+(Machine: 2, Temp: 373, Pres: 100).</p>
+</div><div class="column">
+<p>#### No Process Capability Generated Not enough valid numeric data
+was found to generate Process Capability for PartResistance (Machine: 2,
+Temp: 373, Pres: 100).</p>
+</div>
+</div>
+<h3
+id="partresistance-analysis-for-machine-2-at-373-k-300-kpa">PartResistance
+Analysis for Machine 2 at 373 K, 300 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### No Control Chart Generated Not enough valid numeric data was
+found to generate an Individual Control Chart for PartResistance
+(Machine: 2, Temp: 373, Pres: 300).</p>
+</div><div class="column">
+<p>#### No Process Capability Generated Not enough valid numeric data
+was found to generate Process Capability for PartResistance (Machine: 2,
+Temp: 373, Pres: 300).</p>
+</div>
+</div>
+<h3
+id="partresistance-analysis-for-machine-3-at-303-k-200-kpa">PartResistance
+Analysis for Machine 3 at 303 K, 200 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### No Control Chart Generated Not enough valid numeric data was
+found to generate an Individual Control Chart for PartResistance
+(Machine: 3, Temp: 303, Pres: 200).</p>
+</div><div class="column">
+<p>#### No Process Capability Generated Not enough valid numeric data
+was found to generate Process Capability for PartResistance (Machine: 3,
+Temp: 303, Pres: 200).</p>
+</div>
+</div>
+<h3
+id="partresistance-analysis-for-machine-3-at-338-k-100-kpa">PartResistance
+Analysis for Machine 3 at 338 K, 100 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### No Control Chart Generated Not enough valid numeric data was
+found to generate an Individual Control Chart for PartResistance
+(Machine: 3, Temp: 338, Pres: 100).</p>
+</div><div class="column">
+<p>#### No Process Capability Generated Not enough valid numeric data
+was found to generate Process Capability for PartResistance (Machine: 3,
+Temp: 338, Pres: 100).</p>
+</div>
+</div>
+<h3
+id="partresistance-analysis-for-machine-3-at-338-k-300-kpa">PartResistance
+Analysis for Machine 3 at 338 K, 300 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### No Control Chart Generated Not enough valid numeric data was
+found to generate an Individual Control Chart for PartResistance
+(Machine: 3, Temp: 338, Pres: 300).</p>
+</div><div class="column">
+<p>#### No Process Capability Generated Not enough valid numeric data
+was found to generate Process Capability for PartResistance (Machine: 3,
+Temp: 338, Pres: 300).</p>
+</div>
+</div>
+<h3
+id="partresistance-analysis-for-machine-3-at-373-k-200-kpa">PartResistance
+Analysis for Machine 3 at 373 K, 200 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### No Control Chart Generated Not enough valid numeric data was
+found to generate an Individual Control Chart for PartResistance
+(Machine: 3, Temp: 373, Pres: 200).</p>
+</div><div class="column">
+<p>#### No Process Capability Generated Not enough valid numeric data
+was found to generate Process Capability for PartResistance (Machine: 3,
+Temp: 373, Pres: 200).</p>
+</div>
+</div>
+<h2 id="machine-process-analysis-control-charts-capability">Machine
+Process Analysis: Control Charts &amp; Capability</h2>
+<h3 id="partlength-analysis-for-machine-1-at-303-k-200-kpa">PartLength
+Analysis for Machine 1 at 303 K, 200 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partlength_m1_t303_p200.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartLength under these conditions. Points outside control limits (red
+lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partlength_m1_t303_p200.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartLength meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-1-at-338-k-100-kpa">PartLength
+Analysis for Machine 1 at 338 K, 100 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partlength_m1_t338_p100.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartLength under these conditions. Points outside control limits (red
+lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partlength_m1_t338_p100.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartLength meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-1-at-338-k-300-kpa">PartLength
+Analysis for Machine 1 at 338 K, 300 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partlength_m1_t338_p300.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartLength under these conditions. Points outside control limits (red
+lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partlength_m1_t338_p300.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartLength meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-1-at-373-k-200-kpa">PartLength
+Analysis for Machine 1 at 373 K, 200 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partlength_m1_t373_p200.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartLength under these conditions. Points outside control limits (red
+lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partlength_m1_t373_p200.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartLength meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-2-at-303-k-100-kpa">PartLength
+Analysis for Machine 2 at 303 K, 100 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partlength_m2_t303_p100.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartLength under these conditions. Points outside control limits (red
+lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partlength_m2_t303_p100.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartLength meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-2-at-303-k-300-kpa">PartLength
+Analysis for Machine 2 at 303 K, 300 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partlength_m2_t303_p300.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartLength under these conditions. Points outside control limits (red
+lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partlength_m2_t303_p300.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartLength meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-2-at-338-k-200-kpa">PartLength
+Analysis for Machine 2 at 338 K, 200 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partlength_m2_t338_p200.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartLength under these conditions. Points outside control limits (red
+lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partlength_m2_t338_p200.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartLength meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-2-at-373-k-100-kpa">PartLength
+Analysis for Machine 2 at 373 K, 100 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partlength_m2_t373_p100.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartLength under these conditions. Points outside control limits (red
+lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partlength_m2_t373_p100.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartLength meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-2-at-373-k-300-kpa">PartLength
+Analysis for Machine 2 at 373 K, 300 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partlength_m2_t373_p300.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartLength under these conditions. Points outside control limits (red
+lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partlength_m2_t373_p300.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartLength meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-3-at-303-k-200-kpa">PartLength
+Analysis for Machine 3 at 303 K, 200 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partlength_m3_t303_p200.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartLength under these conditions. Points outside control limits (red
+lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partlength_m3_t303_p200.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartLength meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-3-at-338-k-100-kpa">PartLength
+Analysis for Machine 3 at 338 K, 100 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partlength_m3_t338_p100.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartLength under these conditions. Points outside control limits (red
+lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partlength_m3_t338_p100.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartLength meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-3-at-338-k-300-kpa">PartLength
+Analysis for Machine 3 at 338 K, 300 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partlength_m3_t338_p300.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartLength under these conditions. Points outside control limits (red
+lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partlength_m3_t338_p300.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartLength meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-3-at-373-k-200-kpa">PartLength
+Analysis for Machine 3 at 373 K, 200 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partlength_m3_t373_p200.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartLength under these conditions. Points outside control limits (red
+lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partlength_m3_t373_p200.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartLength meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3
+id="partresistance-analysis-for-machine-1-at-303-k-100-kpa">PartResistance
+Analysis for Machine 1 at 303 K, 100 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partresistance_m1_t303_p100.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartResistance under these conditions. Points outside control limits
+(red lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partresistance_m1_t303_p100.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartResistance meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3
+id="partresistance-analysis-for-machine-1-at-303-k-300-kpa">PartResistance
+Analysis for Machine 1 at 303 K, 300 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partresistance_m1_t303_p300.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartResistance under these conditions. Points outside control limits
+(red lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partresistance_m1_t303_p300.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartResistance meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3
+id="partresistance-analysis-for-machine-1-at-338-k-200-kpa">PartResistance
+Analysis for Machine 1 at 338 K, 200 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partresistance_m1_t338_p200.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartResistance under these conditions. Points outside control limits
+(red lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partresistance_m1_t338_p200.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartResistance meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3
+id="partresistance-analysis-for-machine-1-at-373-k-100-kpa">PartResistance
+Analysis for Machine 1 at 373 K, 100 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partresistance_m1_t373_p100.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartResistance under these conditions. Points outside control limits
+(red lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partresistance_m1_t373_p100.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartResistance meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3
+id="partresistance-analysis-for-machine-1-at-373-k-300-kpa">PartResistance
+Analysis for Machine 1 at 373 K, 300 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partresistance_m1_t373_p300.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartResistance under these conditions. Points outside control limits
+(red lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partresistance_m1_t373_p300.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartResistance meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3
+id="partresistance-analysis-for-machine-2-at-303-k-200-kpa">PartResistance
+Analysis for Machine 2 at 303 K, 200 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partresistance_m2_t303_p200.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartResistance under these conditions. Points outside control limits
+(red lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partresistance_m2_t303_p200.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartResistance meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3
+id="partresistance-analysis-for-machine-2-at-338-k-100-kpa">PartResistance
+Analysis for Machine 2 at 338 K, 100 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partresistance_m2_t338_p100.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartResistance under these conditions. Points outside control limits
+(red lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partresistance_m2_t338_p100.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartResistance meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3
+id="partresistance-analysis-for-machine-2-at-338-k-300-kpa">PartResistance
+Analysis for Machine 2 at 338 K, 300 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partresistance_m2_t338_p300.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartResistance under these conditions. Points outside control limits
+(red lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partresistance_m2_t338_p300.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartResistance meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3
+id="partresistance-analysis-for-machine-2-at-373-k-200-kpa">PartResistance
+Analysis for Machine 2 at 373 K, 200 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partresistance_m2_t373_p200.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartResistance under these conditions. Points outside control limits
+(red lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partresistance_m2_t373_p200.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartResistance meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3
+id="partresistance-analysis-for-machine-3-at-303-k-100-kpa">PartResistance
+Analysis for Machine 3 at 303 K, 100 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partresistance_m3_t303_p100.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartResistance under these conditions. Points outside control limits
+(red lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partresistance_m3_t303_p100.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartResistance meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3
+id="partresistance-analysis-for-machine-3-at-303-k-300-kpa">PartResistance
+Analysis for Machine 3 at 303 K, 300 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partresistance_m3_t303_p300.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartResistance under these conditions. Points outside control limits
+(red lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partresistance_m3_t303_p300.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartResistance meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3
+id="partresistance-analysis-for-machine-3-at-338-k-200-kpa">PartResistance
+Analysis for Machine 3 at 338 K, 200 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partresistance_m3_t338_p200.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartResistance under these conditions. Points outside control limits
+(red lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partresistance_m3_t338_p200.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartResistance meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3
+id="partresistance-analysis-for-machine-3-at-373-k-100-kpa">PartResistance
+Analysis for Machine 3 at 373 K, 100 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partresistance_m3_t373_p100.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartResistance under these conditions. Points outside control limits
+(red lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partresistance_m3_t373_p100.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartResistance meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3
+id="partresistance-analysis-for-machine-3-at-373-k-300-kpa">PartResistance
+Analysis for Machine 3 at 373 K, 300 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partresistance_m3_t373_p300.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartResistance under these conditions. Points outside control limits
+(red lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partresistance_m3_t373_p300.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartResistance meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-1-at-303-k-100-kpa-1">PartLength
+Analysis for Machine 1 at 303 K, 100 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partlength_m1_t303_p100.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartLength under these conditions. Points outside control limits (red
+lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partlength_m1_t303_p100.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartLength meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-1-at-303-k-300-kpa-1">PartLength
+Analysis for Machine 1 at 303 K, 300 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partlength_m1_t303_p300.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartLength under these conditions. Points outside control limits (red
+lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partlength_m1_t303_p300.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartLength meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-1-at-338-k-200-kpa-1">PartLength
+Analysis for Machine 1 at 338 K, 200 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partlength_m1_t338_p200.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartLength under these conditions. Points outside control limits (red
+lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partlength_m1_t338_p200.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartLength meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-1-at-373-k-100-kpa-1">PartLength
+Analysis for Machine 1 at 373 K, 100 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partlength_m1_t373_p100.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartLength under these conditions. Points outside control limits (red
+lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partlength_m1_t373_p100.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartLength meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-1-at-373-k-300-kpa-1">PartLength
+Analysis for Machine 1 at 373 K, 300 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partlength_m1_t373_p300.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartLength under these conditions. Points outside control limits (red
+lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partlength_m1_t373_p300.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartLength meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-2-at-303-k-200-kpa-1">PartLength
+Analysis for Machine 2 at 303 K, 200 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partlength_m2_t303_p200.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartLength under these conditions. Points outside control limits (red
+lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partlength_m2_t303_p200.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartLength meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-2-at-338-k-100-kpa-1">PartLength
+Analysis for Machine 2 at 338 K, 100 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partlength_m2_t338_p100.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartLength under these conditions. Points outside control limits (red
+lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partlength_m2_t338_p100.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartLength meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-2-at-338-k-300-kpa-1">PartLength
+Analysis for Machine 2 at 338 K, 300 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partlength_m2_t338_p300.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartLength under these conditions. Points outside control limits (red
+lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partlength_m2_t338_p300.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartLength meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-2-at-373-k-200-kpa-1">PartLength
+Analysis for Machine 2 at 373 K, 200 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partlength_m2_t373_p200.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartLength under these conditions. Points outside control limits (red
+lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partlength_m2_t373_p200.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartLength meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-3-at-303-k-100-kpa-1">PartLength
+Analysis for Machine 3 at 303 K, 100 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partlength_m3_t303_p100.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartLength under these conditions. Points outside control limits (red
+lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partlength_m3_t303_p100.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartLength meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-3-at-303-k-300-kpa-1">PartLength
+Analysis for Machine 3 at 303 K, 300 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partlength_m3_t303_p300.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartLength under these conditions. Points outside control limits (red
+lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partlength_m3_t303_p300.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartLength meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-3-at-338-k-200-kpa-1">PartLength
+Analysis for Machine 3 at 338 K, 200 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partlength_m3_t338_p200.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartLength under these conditions. Points outside control limits (red
+lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partlength_m3_t338_p200.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartLength meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-3-at-373-k-100-kpa-1">PartLength
+Analysis for Machine 3 at 373 K, 100 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partlength_m3_t373_p100.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartLength under these conditions. Points outside control limits (red
+lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partlength_m3_t373_p100.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartLength meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-3-at-373-k-300-kpa-1">PartLength
+Analysis for Machine 3 at 373 K, 300 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partlength_m3_t373_p300.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartLength under these conditions. Points outside control limits (red
+lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partlength_m3_t373_p300.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartLength meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3
+id="partresistance-analysis-for-machine-1-at-303-k-200-kpa-1">PartResistance
+Analysis for Machine 1 at 303 K, 200 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partresistance_m1_t303_p200.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartResistance under these conditions. Points outside control limits
+(red lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partresistance_m1_t303_p200.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartResistance meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3
+id="partresistance-analysis-for-machine-1-at-338-k-100-kpa-1">PartResistance
+Analysis for Machine 1 at 338 K, 100 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partresistance_m1_t338_p100.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartResistance under these conditions. Points outside control limits
+(red lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partresistance_m1_t338_p100.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartResistance meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3
+id="partresistance-analysis-for-machine-1-at-338-k-300-kpa-1">PartResistance
+Analysis for Machine 1 at 338 K, 300 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partresistance_m1_t338_p300.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartResistance under these conditions. Points outside control limits
+(red lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partresistance_m1_t338_p300.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartResistance meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3
+id="partresistance-analysis-for-machine-1-at-373-k-200-kpa-1">PartResistance
+Analysis for Machine 1 at 373 K, 200 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partresistance_m1_t373_p200.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartResistance under these conditions. Points outside control limits
+(red lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partresistance_m1_t373_p200.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartResistance meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3
+id="partresistance-analysis-for-machine-2-at-303-k-100-kpa-1">PartResistance
+Analysis for Machine 2 at 303 K, 100 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partresistance_m2_t303_p100.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartResistance under these conditions. Points outside control limits
+(red lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partresistance_m2_t303_p100.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartResistance meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3
+id="partresistance-analysis-for-machine-2-at-303-k-300-kpa-1">PartResistance
+Analysis for Machine 2 at 303 K, 300 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partresistance_m2_t303_p300.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartResistance under these conditions. Points outside control limits
+(red lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partresistance_m2_t303_p300.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartResistance meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3
+id="partresistance-analysis-for-machine-2-at-338-k-200-kpa-1">PartResistance
+Analysis for Machine 2 at 338 K, 200 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partresistance_m2_t338_p200.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartResistance under these conditions. Points outside control limits
+(red lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partresistance_m2_t338_p200.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartResistance meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3
+id="partresistance-analysis-for-machine-2-at-373-k-100-kpa-1">PartResistance
+Analysis for Machine 2 at 373 K, 100 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partresistance_m2_t373_p100.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartResistance under these conditions. Points outside control limits
+(red lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partresistance_m2_t373_p100.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartResistance meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3
+id="partresistance-analysis-for-machine-2-at-373-k-300-kpa-1">PartResistance
+Analysis for Machine 2 at 373 K, 300 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partresistance_m2_t373_p300.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartResistance under these conditions. Points outside control limits
+(red lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partresistance_m2_t373_p300.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartResistance meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3
+id="partresistance-analysis-for-machine-3-at-303-k-200-kpa-1">PartResistance
+Analysis for Machine 3 at 303 K, 200 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partresistance_m3_t303_p200.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartResistance under these conditions. Points outside control limits
+(red lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partresistance_m3_t303_p200.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartResistance meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3
+id="partresistance-analysis-for-machine-3-at-338-k-100-kpa-1">PartResistance
+Analysis for Machine 3 at 338 K, 100 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partresistance_m3_t338_p100.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartResistance under these conditions. Points outside control limits
+(red lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partresistance_m3_t338_p100.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartResistance meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3
+id="partresistance-analysis-for-machine-3-at-338-k-300-kpa-1">PartResistance
+Analysis for Machine 3 at 338 K, 300 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partresistance_m3_t338_p300.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartResistance under these conditions. Points outside control limits
+(red lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partresistance_m3_t338_p300.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartResistance meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3
+id="partresistance-analysis-for-machine-3-at-373-k-200-kpa-1">PartResistance
+Analysis for Machine 3 at 373 K, 200 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partresistance_m3_t373_p200.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartResistance under these conditions. Points outside control limits
+(red lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partresistance_m3_t373_p200.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartResistance meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-1-at-303-k-100-kpa-2">PartLength
+Analysis for Machine 1 at 303 K, 100 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partlength_m1_t303_p100.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartLength under these conditions. Points outside control limits (red
+lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partlength_m1_t303_p100.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartLength meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-1-at-303-k-300-kpa-2">PartLength
+Analysis for Machine 1 at 303 K, 300 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partlength_m1_t303_p300.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartLength under these conditions. Points outside control limits (red
+lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partlength_m1_t303_p300.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartLength meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-1-at-338-k-200-kpa-2">PartLength
+Analysis for Machine 1 at 338 K, 200 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partlength_m1_t338_p200.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartLength under these conditions. Points outside control limits (red
+lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partlength_m1_t338_p200.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartLength meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-1-at-373-k-100-kpa-2">PartLength
+Analysis for Machine 1 at 373 K, 100 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partlength_m1_t373_p100.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartLength under these conditions. Points outside control limits (red
+lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partlength_m1_t373_p100.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartLength meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-1-at-373-k-300-kpa-2">PartLength
+Analysis for Machine 1 at 373 K, 300 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partlength_m1_t373_p300.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartLength under these conditions. Points outside control limits (red
+lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partlength_m1_t373_p300.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartLength meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-2-at-303-k-200-kpa-2">PartLength
+Analysis for Machine 2 at 303 K, 200 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partlength_m2_t303_p200.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartLength under these conditions. Points outside control limits (red
+lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partlength_m2_t303_p200.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartLength meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-2-at-338-k-100-kpa-2">PartLength
+Analysis for Machine 2 at 338 K, 100 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partlength_m2_t338_p100.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartLength under these conditions. Points outside control limits (red
+lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partlength_m2_t338_p100.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartLength meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-2-at-338-k-300-kpa-2">PartLength
+Analysis for Machine 2 at 338 K, 300 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partlength_m2_t338_p300.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartLength under these conditions. Points outside control limits (red
+lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partlength_m2_t338_p300.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartLength meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-2-at-373-k-200-kpa-2">PartLength
+Analysis for Machine 2 at 373 K, 200 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partlength_m2_t373_p200.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartLength under these conditions. Points outside control limits (red
+lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partlength_m2_t373_p200.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartLength meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-3-at-303-k-100-kpa-2">PartLength
+Analysis for Machine 3 at 303 K, 100 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partlength_m3_t303_p100.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartLength under these conditions. Points outside control limits (red
+lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partlength_m3_t303_p100.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartLength meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-3-at-303-k-300-kpa-2">PartLength
+Analysis for Machine 3 at 303 K, 300 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partlength_m3_t303_p300.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartLength under these conditions. Points outside control limits (red
+lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partlength_m3_t303_p300.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartLength meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-3-at-338-k-200-kpa-2">PartLength
+Analysis for Machine 3 at 338 K, 200 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partlength_m3_t338_p200.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartLength under these conditions. Points outside control limits (red
+lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partlength_m3_t338_p200.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartLength meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-3-at-373-k-100-kpa-2">PartLength
+Analysis for Machine 3 at 373 K, 100 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partlength_m3_t373_p100.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartLength under these conditions. Points outside control limits (red
+lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partlength_m3_t373_p100.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartLength meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-3-at-373-k-300-kpa-2">PartLength
+Analysis for Machine 3 at 373 K, 300 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partlength_m3_t373_p300.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartLength under these conditions. Points outside control limits (red
+lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partlength_m3_t373_p300.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartLength meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3
+id="partresistance-analysis-for-machine-1-at-303-k-200-kpa-2">PartResistance
+Analysis for Machine 1 at 303 K, 200 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partresistance_m1_t303_p200.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartResistance under these conditions. Points outside control limits
+(red lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partresistance_m1_t303_p200.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartResistance meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3
+id="partresistance-analysis-for-machine-1-at-338-k-100-kpa-2">PartResistance
+Analysis for Machine 1 at 338 K, 100 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partresistance_m1_t338_p100.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartResistance under these conditions. Points outside control limits
+(red lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partresistance_m1_t338_p100.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartResistance meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3
+id="partresistance-analysis-for-machine-1-at-338-k-300-kpa-2">PartResistance
+Analysis for Machine 1 at 338 K, 300 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partresistance_m1_t338_p300.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartResistance under these conditions. Points outside control limits
+(red lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partresistance_m1_t338_p300.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartResistance meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3
+id="partresistance-analysis-for-machine-1-at-373-k-200-kpa-2">PartResistance
+Analysis for Machine 1 at 373 K, 200 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partresistance_m1_t373_p200.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartResistance under these conditions. Points outside control limits
+(red lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partresistance_m1_t373_p200.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartResistance meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3
+id="partresistance-analysis-for-machine-2-at-303-k-100-kpa-2">PartResistance
+Analysis for Machine 2 at 303 K, 100 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partresistance_m2_t303_p100.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartResistance under these conditions. Points outside control limits
+(red lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partresistance_m2_t303_p100.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartResistance meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3
+id="partresistance-analysis-for-machine-2-at-303-k-300-kpa-2">PartResistance
+Analysis for Machine 2 at 303 K, 300 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partresistance_m2_t303_p300.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartResistance under these conditions. Points outside control limits
+(red lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partresistance_m2_t303_p300.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartResistance meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3
+id="partresistance-analysis-for-machine-2-at-338-k-200-kpa-2">PartResistance
+Analysis for Machine 2 at 338 K, 200 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partresistance_m2_t338_p200.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartResistance under these conditions. Points outside control limits
+(red lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partresistance_m2_t338_p200.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartResistance meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3
+id="partresistance-analysis-for-machine-2-at-373-k-100-kpa-2">PartResistance
+Analysis for Machine 2 at 373 K, 100 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partresistance_m2_t373_p100.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartResistance under these conditions. Points outside control limits
+(red lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partresistance_m2_t373_p100.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartResistance meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3
+id="partresistance-analysis-for-machine-2-at-373-k-300-kpa-2">PartResistance
+Analysis for Machine 2 at 373 K, 300 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partresistance_m2_t373_p300.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartResistance under these conditions. Points outside control limits
+(red lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partresistance_m2_t373_p300.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartResistance meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3
+id="partresistance-analysis-for-machine-3-at-303-k-200-kpa-2">PartResistance
+Analysis for Machine 3 at 303 K, 200 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partresistance_m3_t303_p200.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartResistance under these conditions. Points outside control limits
+(red lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partresistance_m3_t303_p200.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartResistance meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3
+id="partresistance-analysis-for-machine-3-at-338-k-100-kpa-2">PartResistance
+Analysis for Machine 3 at 338 K, 100 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partresistance_m3_t338_p100.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartResistance under these conditions. Points outside control limits
+(red lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partresistance_m3_t338_p100.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartResistance meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3
+id="partresistance-analysis-for-machine-3-at-338-k-300-kpa-2">PartResistance
+Analysis for Machine 3 at 338 K, 300 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partresistance_m3_t338_p300.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartResistance under these conditions. Points outside control limits
+(red lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partresistance_m3_t338_p300.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartResistance meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3
+id="partresistance-analysis-for-machine-3-at-373-k-200-kpa-2">PartResistance
+Analysis for Machine 3 at 373 K, 200 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partresistance_m3_t373_p200.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartResistance under these conditions. Points outside control limits
+(red lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partresistance_m3_t373_p200.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartResistance meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-1-at-303-k-100-kpa-3">PartLength
+Analysis for Machine 1 at 303 K, 100 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partlength_m1_t303_p100.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartLength under these conditions. Points outside control limits (red
+lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partlength_m1_t303_p100.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartLength meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-1-at-303-k-300-kpa-3">PartLength
+Analysis for Machine 1 at 303 K, 300 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partlength_m1_t303_p300.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartLength under these conditions. Points outside control limits (red
+lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partlength_m1_t303_p300.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartLength meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-1-at-338-k-200-kpa-3">PartLength
+Analysis for Machine 1 at 338 K, 200 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partlength_m1_t338_p200.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartLength under these conditions. Points outside control limits (red
+lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partlength_m1_t338_p200.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartLength meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-1-at-373-k-100-kpa-3">PartLength
+Analysis for Machine 1 at 373 K, 100 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partlength_m1_t373_p100.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartLength under these conditions. Points outside control limits (red
+lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partlength_m1_t373_p100.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartLength meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-1-at-373-k-300-kpa-3">PartLength
+Analysis for Machine 1 at 373 K, 300 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partlength_m1_t373_p300.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartLength under these conditions. Points outside control limits (red
+lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partlength_m1_t373_p300.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartLength meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-2-at-303-k-200-kpa-3">PartLength
+Analysis for Machine 2 at 303 K, 200 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partlength_m2_t303_p200.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartLength under these conditions. Points outside control limits (red
+lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partlength_m2_t303_p200.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartLength meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-2-at-338-k-100-kpa-3">PartLength
+Analysis for Machine 2 at 338 K, 100 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partlength_m2_t338_p100.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartLength under these conditions. Points outside control limits (red
+lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partlength_m2_t338_p100.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartLength meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-2-at-338-k-300-kpa-3">PartLength
+Analysis for Machine 2 at 338 K, 300 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partlength_m2_t338_p300.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartLength under these conditions. Points outside control limits (red
+lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partlength_m2_t338_p300.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartLength meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-2-at-373-k-200-kpa-3">PartLength
+Analysis for Machine 2 at 373 K, 200 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partlength_m2_t373_p200.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartLength under these conditions. Points outside control limits (red
+lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partlength_m2_t373_p200.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartLength meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-3-at-303-k-100-kpa-3">PartLength
+Analysis for Machine 3 at 303 K, 100 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partlength_m3_t303_p100.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartLength under these conditions. Points outside control limits (red
+lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partlength_m3_t303_p100.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartLength meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-3-at-303-k-300-kpa-3">PartLength
+Analysis for Machine 3 at 303 K, 300 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partlength_m3_t303_p300.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartLength under these conditions. Points outside control limits (red
+lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partlength_m3_t303_p300.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartLength meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-3-at-338-k-200-kpa-3">PartLength
+Analysis for Machine 3 at 338 K, 200 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partlength_m3_t338_p200.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartLength under these conditions. Points outside control limits (red
+lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partlength_m3_t338_p200.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartLength meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-3-at-373-k-100-kpa-3">PartLength
+Analysis for Machine 3 at 373 K, 100 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partlength_m3_t373_p100.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartLength under these conditions. Points outside control limits (red
+lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partlength_m3_t373_p100.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartLength meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-3-at-373-k-300-kpa-3">PartLength
+Analysis for Machine 3 at 373 K, 300 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partlength_m3_t373_p300.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartLength under these conditions. Points outside control limits (red
+lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partlength_m3_t373_p300.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartLength meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3
+id="partresistance-analysis-for-machine-1-at-303-k-200-kpa-3">PartResistance
+Analysis for Machine 1 at 303 K, 200 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partresistance_m1_t303_p200.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartResistance under these conditions. Points outside control limits
+(red lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partresistance_m1_t303_p200.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartResistance meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3
+id="partresistance-analysis-for-machine-1-at-338-k-100-kpa-3">PartResistance
+Analysis for Machine 1 at 338 K, 100 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partresistance_m1_t338_p100.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartResistance under these conditions. Points outside control limits
+(red lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partresistance_m1_t338_p100.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartResistance meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3
+id="partresistance-analysis-for-machine-1-at-338-k-300-kpa-3">PartResistance
+Analysis for Machine 1 at 338 K, 300 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partresistance_m1_t338_p300.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartResistance under these conditions. Points outside control limits
+(red lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partresistance_m1_t338_p300.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartResistance meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3
+id="partresistance-analysis-for-machine-1-at-373-k-200-kpa-3">PartResistance
+Analysis for Machine 1 at 373 K, 200 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partresistance_m1_t373_p200.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartResistance under these conditions. Points outside control limits
+(red lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partresistance_m1_t373_p200.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartResistance meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3
+id="partresistance-analysis-for-machine-2-at-303-k-100-kpa-3">PartResistance
+Analysis for Machine 2 at 303 K, 100 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partresistance_m2_t303_p100.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartResistance under these conditions. Points outside control limits
+(red lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partresistance_m2_t303_p100.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartResistance meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3
+id="partresistance-analysis-for-machine-2-at-303-k-300-kpa-3">PartResistance
+Analysis for Machine 2 at 303 K, 300 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partresistance_m2_t303_p300.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartResistance under these conditions. Points outside control limits
+(red lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partresistance_m2_t303_p300.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartResistance meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3
+id="partresistance-analysis-for-machine-2-at-338-k-200-kpa-3">PartResistance
+Analysis for Machine 2 at 338 K, 200 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partresistance_m2_t338_p200.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartResistance under these conditions. Points outside control limits
+(red lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partresistance_m2_t338_p200.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartResistance meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3
+id="partresistance-analysis-for-machine-2-at-373-k-100-kpa-3">PartResistance
+Analysis for Machine 2 at 373 K, 100 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partresistance_m2_t373_p100.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartResistance under these conditions. Points outside control limits
+(red lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partresistance_m2_t373_p100.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartResistance meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3
+id="partresistance-analysis-for-machine-2-at-373-k-300-kpa-3">PartResistance
+Analysis for Machine 2 at 373 K, 300 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partresistance_m2_t373_p300.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartResistance under these conditions. Points outside control limits
+(red lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partresistance_m2_t373_p300.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartResistance meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3
+id="partresistance-analysis-for-machine-3-at-303-k-200-kpa-3">PartResistance
+Analysis for Machine 3 at 303 K, 200 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partresistance_m3_t303_p200.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartResistance under these conditions. Points outside control limits
+(red lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partresistance_m3_t303_p200.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartResistance meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3
+id="partresistance-analysis-for-machine-3-at-338-k-100-kpa-3">PartResistance
+Analysis for Machine 3 at 338 K, 100 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partresistance_m3_t338_p100.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartResistance under these conditions. Points outside control limits
+(red lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partresistance_m3_t338_p100.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartResistance meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3
+id="partresistance-analysis-for-machine-3-at-338-k-300-kpa-3">PartResistance
+Analysis for Machine 3 at 338 K, 300 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partresistance_m3_t338_p300.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartResistance under these conditions. Points outside control limits
+(red lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partresistance_m3_t338_p300.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartResistance meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3
+id="partresistance-analysis-for-machine-3-at-373-k-200-kpa-3">PartResistance
+Analysis for Machine 3 at 373 K, 200 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partresistance_m3_t373_p200.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartResistance under these conditions. Points outside control limits
+(red lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partresistance_m3_t373_p200.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartResistance meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-1-at-303-k-100-kpa-4">PartLength
+Analysis for Machine 1 at 303 K, 100 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partlength_m1_t303_p100.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartLength under these conditions. Points outside control limits (red
+lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partlength_m1_t303_p100.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartLength meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-1-at-303-k-300-kpa-4">PartLength
+Analysis for Machine 1 at 303 K, 300 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partlength_m1_t303_p300.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartLength under these conditions. Points outside control limits (red
+lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partlength_m1_t303_p300.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartLength meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-1-at-338-k-200-kpa-4">PartLength
+Analysis for Machine 1 at 338 K, 200 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partlength_m1_t338_p200.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartLength under these conditions. Points outside control limits (red
+lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partlength_m1_t338_p200.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartLength meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-1-at-373-k-100-kpa-4">PartLength
+Analysis for Machine 1 at 373 K, 100 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partlength_m1_t373_p100.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartLength under these conditions. Points outside control limits (red
+lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partlength_m1_t373_p100.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartLength meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-1-at-373-k-300-kpa-4">PartLength
+Analysis for Machine 1 at 373 K, 300 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partlength_m1_t373_p300.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartLength under these conditions. Points outside control limits (red
+lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partlength_m1_t373_p300.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartLength meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-2-at-303-k-200-kpa-4">PartLength
+Analysis for Machine 2 at 303 K, 200 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partlength_m2_t303_p200.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartLength under these conditions. Points outside control limits (red
+lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partlength_m2_t303_p200.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartLength meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-2-at-338-k-100-kpa-4">PartLength
+Analysis for Machine 2 at 338 K, 100 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partlength_m2_t338_p100.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartLength under these conditions. Points outside control limits (red
+lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partlength_m2_t338_p100.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartLength meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-2-at-338-k-300-kpa-4">PartLength
+Analysis for Machine 2 at 338 K, 300 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partlength_m2_t338_p300.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartLength under these conditions. Points outside control limits (red
+lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partlength_m2_t338_p300.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartLength meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-2-at-373-k-200-kpa-4">PartLength
+Analysis for Machine 2 at 373 K, 200 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partlength_m2_t373_p200.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartLength under these conditions. Points outside control limits (red
+lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partlength_m2_t373_p200.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartLength meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-3-at-303-k-100-kpa-4">PartLength
+Analysis for Machine 3 at 303 K, 100 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partlength_m3_t303_p100.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartLength under these conditions. Points outside control limits (red
+lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partlength_m3_t303_p100.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartLength meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-3-at-303-k-300-kpa-4">PartLength
+Analysis for Machine 3 at 303 K, 300 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partlength_m3_t303_p300.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartLength under these conditions. Points outside control limits (red
+lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partlength_m3_t303_p300.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartLength meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-3-at-338-k-200-kpa-4">PartLength
+Analysis for Machine 3 at 338 K, 200 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partlength_m3_t338_p200.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartLength under these conditions. Points outside control limits (red
+lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partlength_m3_t338_p200.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartLength meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-3-at-373-k-100-kpa-4">PartLength
+Analysis for Machine 3 at 373 K, 100 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partlength_m3_t373_p100.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartLength under these conditions. Points outside control limits (red
+lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partlength_m3_t373_p100.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartLength meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3 id="partlength-analysis-for-machine-3-at-373-k-300-kpa-4">PartLength
+Analysis for Machine 3 at 373 K, 300 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partlength_m3_t373_p300.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartLength under these conditions. Points outside control limits (red
+lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partlength_m3_t373_p300.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartLength meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3
+id="partresistance-analysis-for-machine-1-at-303-k-200-kpa-4">PartResistance
+Analysis for Machine 1 at 303 K, 200 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partresistance_m1_t303_p200.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartResistance under these conditions. Points outside control limits
+(red lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partresistance_m1_t303_p200.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartResistance meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3
+id="partresistance-analysis-for-machine-1-at-338-k-100-kpa-4">PartResistance
+Analysis for Machine 1 at 338 K, 100 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partresistance_m1_t338_p100.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartResistance under these conditions. Points outside control limits
+(red lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partresistance_m1_t338_p100.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartResistance meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3
+id="partresistance-analysis-for-machine-1-at-338-k-300-kpa-4">PartResistance
+Analysis for Machine 1 at 338 K, 300 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partresistance_m1_t338_p300.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartResistance under these conditions. Points outside control limits
+(red lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partresistance_m1_t338_p300.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartResistance meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3
+id="partresistance-analysis-for-machine-1-at-373-k-200-kpa-4">PartResistance
+Analysis for Machine 1 at 373 K, 200 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partresistance_m1_t373_p200.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartResistance under these conditions. Points outside control limits
+(red lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partresistance_m1_t373_p200.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartResistance meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3
+id="partresistance-analysis-for-machine-2-at-303-k-100-kpa-4">PartResistance
+Analysis for Machine 2 at 303 K, 100 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partresistance_m2_t303_p100.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartResistance under these conditions. Points outside control limits
+(red lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partresistance_m2_t303_p100.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartResistance meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3
+id="partresistance-analysis-for-machine-2-at-303-k-300-kpa-4">PartResistance
+Analysis for Machine 2 at 303 K, 300 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partresistance_m2_t303_p300.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartResistance under these conditions. Points outside control limits
+(red lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partresistance_m2_t303_p300.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartResistance meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3
+id="partresistance-analysis-for-machine-2-at-338-k-200-kpa-4">PartResistance
+Analysis for Machine 2 at 338 K, 200 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partresistance_m2_t338_p200.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartResistance under these conditions. Points outside control limits
+(red lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partresistance_m2_t338_p200.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartResistance meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3
+id="partresistance-analysis-for-machine-2-at-373-k-100-kpa-4">PartResistance
+Analysis for Machine 2 at 373 K, 100 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partresistance_m2_t373_p100.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartResistance under these conditions. Points outside control limits
+(red lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partresistance_m2_t373_p100.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartResistance meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3
+id="partresistance-analysis-for-machine-2-at-373-k-300-kpa-4">PartResistance
+Analysis for Machine 2 at 373 K, 300 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partresistance_m2_t373_p300.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartResistance under these conditions. Points outside control limits
+(red lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partresistance_m2_t373_p300.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartResistance meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3
+id="partresistance-analysis-for-machine-3-at-303-k-200-kpa-4">PartResistance
+Analysis for Machine 3 at 303 K, 200 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partresistance_m3_t303_p200.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartResistance under these conditions. Points outside control limits
+(red lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partresistance_m3_t303_p200.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartResistance meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3
+id="partresistance-analysis-for-machine-3-at-338-k-100-kpa-4">PartResistance
+Analysis for Machine 3 at 338 K, 100 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partresistance_m3_t338_p100.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartResistance under these conditions. Points outside control limits
+(red lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partresistance_m3_t338_p100.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartResistance meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3
+id="partresistance-analysis-for-machine-3-at-338-k-300-kpa-4">PartResistance
+Analysis for Machine 3 at 338 K, 300 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partresistance_m3_t338_p300.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartResistance under these conditions. Points outside control limits
+(red lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partresistance_m3_t338_p300.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartResistance meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+<h3
+id="partresistance-analysis-for-machine-3-at-373-k-200-kpa-4">PartResistance
+Analysis for Machine 3 at 373 K, 200 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partresistance_m3_t373_p200.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartResistance under these conditions. Points outside control limits
+(red lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partresistance_m3_t373_p200.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartResistance meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
+</section>
+<section class="slide level1">
+
+<h3
+id="partresistance-analysis-for-machine-3-at-373-k-300-kpa-1">PartResistance
+Analysis for Machine 3 at 373 K, 300 kPa</h3>
+<div class="columns">
+<div class="column">
+<p>#### Individual Control Chart
+<img src='media/plots/control_chart_partresistance_m3_t373_p300.png' width='100%' height='auto' style='border:none;'>
+The individual control chart assesses the stability of the process for
+PartResistance under these conditions. Points outside control limits
+(red lines) indicate special cause variation.</p>
+</div><div class="column">
+<p>#### Process Capability
+<img src='media/plots/process_capability_partresistance_m3_t373_p300.png' width='100%' height='auto' style='border:none;'>
+This plot shows how well the process output for PartResistance meets
+specification limits. Cp (Process Potential) and Cpk (Process
+Performance) values indicate the capability. <br> <strong>Note:</strong>
+Specification Limits (LSL, USL, Target) are assumed for demonstration.
+For accurate analysis, replace them with actual engineering
+specifications.</p>
+</div>
+</div>
 </section>
 <section id="bibliography" class="slide level1">
 <h1>Bibliography</h1>
-<div id="refs" class="references csl-bib-body" role="list">
-<div id="ref-carnot1824" class="csl-entry" role="listitem">
-<div class="csl-left-margin">1. </div><div class="csl-right-inline">Sadi
-Carnot. Reflections on the motive power of fire. Annals of Physics.
-1824;1:1–100.</div>
-</div>
+<div id="refs" role="list">
+
 </div>
 </section>
     </div>
@@ -702,6 +3802,7 @@ Carnot. Reflections on the motive power of fire. Annals of Physics.
   <script src="https://unpkg.com/reveal.js@4/plugin/notes/notes.js"></script>
   <script src="https://unpkg.com/reveal.js@4/plugin/search/search.js"></script>
   <script src="https://unpkg.com/reveal.js@4/plugin/zoom/zoom.js"></script>
+  <script src="https://unpkg.com/reveal.js@4/plugin/math/math.js"></script>
 
   <script>
 
@@ -831,7 +3932,7 @@ Carnot. Reflections on the motive power of fire. Annals of Physics.
         previewLinks: false,
 
         // Transition style (none/fade/slide/convex/concave/zoom)
-        transition: 'none',
+        transition: 'slide',
 
         // Transition speed (default/fast/slow)
         transitionSpeed: 'default',
@@ -856,8 +3957,26 @@ Carnot. Reflections on the motive power of fire. Annals of Physics.
         // Factor of the display size that should remain empty around the content
         margin: 0.1,
 
+        math: {
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
         // reveal.js plugins
         plugins: [
+          RevealMath,
           RevealNotes,
           RevealSearch,
           RevealZoom
